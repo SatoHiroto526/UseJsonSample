@@ -10,7 +10,7 @@ public class UseJsonSampleApp {
 
 	public static void main(String[] args) {
 		//APIのURLを定義
-        String apiUrl = "https://jbajpasyrf.execute-api.ap-northeast-1.amazonaws.com/LambdaFunctionSample"; 
+        String apiUrl = "API URL"; 
 
         try {
             URL url = new URL(apiUrl);
