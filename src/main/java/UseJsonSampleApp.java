@@ -15,7 +15,7 @@ public class UseJsonSampleApp {
         try {
             URL url = new URL(apiUrl);
             
-            //HTTOコネクションを確立
+            //HTTPコネクションを確立
             HttpURLConnection connection = (HttpURLConnection) url.openConnection();
             //コネクションのメソッドを定義
             connection.setRequestMethod("GET"); 
